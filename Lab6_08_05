@@ -35,9 +35,10 @@ public class Lab6_08_05 {
 
             int result=0;
             int j = n;
+            int s = 2;
             for(int i=n; i>0;i--){
                 System.out.println("*" + j);
-                result = j*j + result;
+                result = (int)Math.pow(j,s) + result;
                 j--;
             }
             return result;
